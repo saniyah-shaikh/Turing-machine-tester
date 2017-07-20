@@ -1,0 +1,101 @@
+Input Turing Machine: 
+
+(q0, a, D, R, q1)
+(q0, b, D, R, q2)
+(q0, c, c, R, q10)
+(q0, D, D, R, q0)
+(q0, B, 0, R, q12)
+(q1, a, a, R, q1)
+(q1, b, b, R, q1)
+(q1, c, c, R, q3)
+(q1, D, D, R, q1)
+(q1, B, B, L, q11)
+(q2, a, a, R, q2)
+(q2, b, b, R, q2)
+(q2, c, c, R, q4)
+(q2, D, D, R, q2)
+(q2, B, B, L, q11)
+(q3, a, D, R, q5)
+(q3, b, b, R, q10)
+(q3, c, c, R, q10)
+(q3, D, D, R, q3)
+(q3, B, B, L, q11)
+(q4, a, a, R, q10)
+(q4, b, D, R, q5)
+(q4, c, c, R, q10)
+(q4, D, D, R, q4)
+(q4, B, B, L, q11)
+(q5, a, a, R, q5)
+(q5, b, b, R, q5)
+(q5, c, c, R, q10)
+(q5, B, B, L, q6)
+(q6, a, a, L, q9)
+(q6, b, b, L, q9)
+(q6, c, c, L, q7)
+(q6, D, D, L, q6)
+(q7, a, a, L, q9)
+(q7, b, b, L, q9)
+(q7, D, D, l, q7)
+(q7, B, B, R, q8)
+(q8, c, B, R, q8)
+(q8, D, B, R, q8)
+(q8, B, 1, R, a)
+(q9, a, a, L, q9)
+(q9, b, b, L, q9)
+(q9, c, c, L, q9)
+(q9, D, D, L, q9)
+(q9, B, B, R, q0)
+(q10, a, a, R, q10)
+(q10, b, b, R, q10)
+(q10, c, c, R, q10)
+(q10, D, D, R, q10)
+(q10, B, B, L, q11)
+(q11, a, B, L, q11)
+(q11, b, B, L, q11)
+(q11, c, B, L, q11)
+(q11, D, B, L, q11)
+(q11, B, 0, R, q12)
+(q12, B, B, L, q12)
+(a, B, B, L, a)
+
+
+Starting TM.... 
+Original input
+aabbcabb
+Dabbcabb
+Dabbcabb
+Dabbcabb
+Dabbcabb
+Dabbcabb
+DabbcDbb
+DabbcDbb
+DabbcDbb
+DabbcDbbB
+DabbcDbbB
+DabbcDbbB
+DabbcDbbB
+DabbcDbbB
+DabbcDbbB
+DabbcDbbB
+DabbcDbbB
+DabbcDbbB
+BDabbcDbbB
+BDabbcDbbB
+BDDbbcDbbB
+BDDbbcDbbB
+BDDbbcDbbB
+BDDbbcDbbB
+BDDbbcDbbB
+BDDbbcDbbB
+BDDbbcDbbB
+BDDbbcDbbB
+BDDbbcDbBB
+BDDbbcDBBB
+BDDbbcBBBB
+BDDbbBBBBB
+BDDbBBBBBB
+BDDBBBBBBB
+BDBBBBBBBB
+BBBBBBBBBB
+0BBBBBBBBB
+This string was rejected :(
